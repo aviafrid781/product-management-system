@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { ProductsComponent } from './products/products.component';
 import { CreateProductFormComponent } from './create-product-form/create-product-form.component';
+import { ProductsComponent } from './products-list/products-list.component';
 
 export const routes: Routes = [
   {
@@ -17,6 +17,6 @@ export const routes: Routes = [
   },
   {
     path: '',
-    component: CreateProductFormComponent,
+    component: ProductsComponent,
   },
 ];

@@ -109,18 +109,6 @@
         </mat-error>
       </mat-form-field>
     </div>
-
-    <mat-form-field>
-      <mat-label>Choose a date</mat-label>
-      <input matInput [matDatepicker]="picker" />
-      <mat-hint>MM/DD/YYYY</mat-hint>
-      <mat-datepicker-toggle
-        matIconSuffix
-        [for]="picker"
-      ></mat-datepicker-toggle>
-      <mat-datepicker #picker></mat-datepicker>
-    </mat-form-field>
-
     <div style="display: flex; justify-content: flex-end">
       <button *ngIf="!product" mat-flat-button color="primary">
         Create Product
